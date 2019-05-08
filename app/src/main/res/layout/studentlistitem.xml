@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardItem"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="5dp"
+        card_view:cardElevation="2dp"
+        card_view:cardUseCompatPadding="true"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <!--<TextView-->
+                    <!--android:layout_weight="@dimen/weight1"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Name"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:textAppearance="@style/TextAppearance.AppCompat.Small"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:gravity="center|left"-->
+                    <!--android:padding="5dp"/>-->
+                <ImageView
+                    android:layout_marginStart="60dp"
+                    android:layout_width="30dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/student"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:padding="3dp"
+                    android:id="@+id/tvName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BHAVDEEP SINGH GUJRAL"
+                    android:textColor="@android:color/white"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:layout_gravity="left"
+                    android:textSize="18sp"
+                    android:gravity="left" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="@dimen/weight1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Class"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:id="@+id/tvClass"
+                    android:layout_weight="@dimen/weight2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="||"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:padding="5dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="@dimen/weight1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Section"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:id="@+id/tvSection"
+                    android:layout_weight="@dimen/weight2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="H"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:padding="5dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="@dimen/weight1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Roll No."
+                    android:textColor="@android:color/black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:id="@+id/tvRollNo"
+                    android:layout_weight="@dimen/weight2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2013066"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:padding="5dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="@dimen/weight1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Father's Name"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:id="@+id/tvFatherName"
+                    android:layout_weight="@dimen/weight2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HARDEEP SINGH GUJRAL"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:padding="5dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!--<TextView-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_weight="@dimen/weight1"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Admin.No"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:textAppearance="@style/TextAppearance.AppCompat.Small"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:gravity="center|left"-->
+                    <!--android:padding="5dp"/>-->
+
+                <TextView
+                    android:id="@+id/tvAdmin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="52487925"
+                    android:textColor="@android:color/white"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="5dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="@dimen/weight1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="School"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:id="@+id/tvSchool"
+                    android:layout_weight="@dimen/weight2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aravali International School-43"
+                    android:textColor="@android:color/black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:padding="5dp"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/notibg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_gravity="left|center"
+                android:gravity="left|center"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tvnotiName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PTM"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="@color/blue"
+                    android:layout_gravity="left|center"
+                    android:gravity="left|center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="right|center"
+                android:gravity="right|center"
+                android:orientation="horizontal"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="From:"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginRight="3dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="@color/light_black"
+                    android:layout_gravity="right|center"
+                    android:gravity="right|center"/>
+
+                <TextView
+                    android:id="@+id/tvnotiFrom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Principle"
+                    android:fontFamily="sans-serif"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="@color/light_black"
+                    android:layout_gravity="right|center"
+                    android:gravity="right|center"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tvnotiDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/light_black"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:text="Ptm on 25 April"
+            android:layout_marginLeft="5dp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/tvnotiDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/light_black"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:text="25/04/2019"
+            android:layout_gravity="right|center"
+            android:gravity="right|center"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "615568035814",
+    "firebase_url": "https://aravali-school-200108.firebaseio.com",
+    "project_id": "aravali-school-200108",
+    "storage_bucket": "aravali-school-200108.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615568035814:android:b1b884e8dc6d7e61",
+        "android_client_info": {
+          "package_name": "com.ais.eduworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615568035814-nk78pq4v6p6bqubno0op85hdb2o17un1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ais.eduworld",
+            "certificate_hash": "8cd90f55aa7605b3e5532a5f40df8f42846ad100"
+          }
+        },
+        {
+          "client_id": "615568035814-mkld740ui1ul03cir8tk2vde4ptbpukr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpGJoIBeK_mOOJHxCe_aBeIOKlA1j5t_k"
+        },
+        {
+          "current_key": "AIzaSyD30BoDjcNVBgkP94aeesmj0kh_q-XIDuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615568035814-mkld740ui1ul03cir8tk2vde4ptbpukr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "615568035814-qmcp48vvn3ss41uf67mvlt4qngm63e3a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Algosoft.AravaliSchool"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

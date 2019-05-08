@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#be251f</color>
+    <color name="colorPrimaryDark">#be251f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="status_bar_color">#f2cb13</color>
+    <color name="hint_color">#8c9092</color>
+    <color name="button_text_color">#be251f</color>
+    <color name="active_color">#be251f</color>
+    <color name="nonactivebottom_color">#6b6d7d</color>
+    <color name="light_gray">#eaeaea</color>
+    <color name="light_black">#2d2d2d</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#61a327</color>
+    <color name="blue">#007ad0</color>
+    <color name="darkblue">#176d86</color>
+    <color name="otherColor">#8047e2</color>
+    <color name="identityColor">#f2f2f2</color>
+    <color name="noti_border_color">#e7f2f8</color>
+    <color name="orange">#FFA500</color>
+</resources>

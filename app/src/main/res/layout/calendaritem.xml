@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/notibg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_gravity="left|center"
+                android:gravity="left|center"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tvEvent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Holi"
+                    android:fontFamily="sans-serif"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="@color/light_black"
+                    android:layout_gravity="left|center"
+                    android:gravity="left|center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="right|center"
+                android:gravity="right|center"
+                android:orientation="horizontal"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="From:"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginRight="3dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="@color/light_black"
+                    android:layout_gravity="right|center"
+                    android:gravity="right|center"/>
+
+                <TextView
+                    android:id="@+id/tvEventCal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Calendar"
+                    android:fontFamily="sans-serif"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="@color/light_black"
+                    android:layout_gravity="right|center"
+                    android:gravity="right|center"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+        <TextView
+            android:id="@+id/tvStartDate"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/light_black"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:text="03/01/2019 12:45:00 AM"
+            android:layout_gravity="left|center"
+            android:gravity="left"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:id="@+id/tvCalendarAttache"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/blue"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:text="Attachment"
+            android:layout_gravity="right|center"
+            android:gravity="right|center"
+            android:layout_margin="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

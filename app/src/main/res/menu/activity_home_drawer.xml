@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home1"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_studentList"
+            android:icon="@drawable/reading"
+            android:title="Student List" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/news"
+            android:title="News" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/gallery"
+            android:title="Gallery" />
+
+        <item
+            android:id="@+id/nav_achievement"
+            android:icon="@drawable/award"
+            android:visible="false"
+            android:title="Achievement" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feedback"
+            android:title="Feedback" />
+
+        <item
+            android:id="@+id/nav_appUpdate"
+            android:icon="@drawable/refresh"
+            android:visible="false"
+            android:title="Updated App(Version 1.0)" />
+
+        <item
+            android:id="@+id/nav_likeFb"
+            android:icon="@drawable/facebook"
+            android:title="Like Us On Facebook" />
+        <item
+            android:id="@+id/nav_Password"
+            android:icon="@drawable/ic_lock_open_black_24dp"
+            android:title="Change Password" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

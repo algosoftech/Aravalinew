@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.HomeWorkActivity">
+    
+    <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="@color/light_black"
+        android:text="Please select the date"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+
+   <RelativeLayout
+       android:id="@+id/rlDate"
+       android:layout_below="@+id/tvdate"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:background="@drawable/identitybg"
+       android:layout_marginTop="10dp">
+
+       <TextView
+           android:id="@+id/tvdate1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+           android:textColor="@color/light_black"
+           android:text="01/01/1990"
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="10dp"/>
+
+       <ImageView
+           android:id="@+id/ivCal"
+           android:layout_width="30dp"
+           android:layout_height="30dp"
+           android:src="@drawable/calendar"
+           android:layout_centerVertical="true"
+           android:layout_alignParentEnd="true"
+           android:layout_marginRight="10dp"/>
+
+   </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="70dp"
+        android:layout_below="@+id/rlDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/workRv"></android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="7dp"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/lltap"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:background="@drawable/feedbox">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tap"
+                android:textColor="@color/light_black"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show home work image"
+            android:textColor="@color/light_black"
+            android:layout_gravity="center"
+            android:gravity="left|center"
+            android:layout_marginTop="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+
+    </LinearLayout>
+</RelativeLayout>

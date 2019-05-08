@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_one"
+        android:enabled="true"
+        android:icon="@drawable/home"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_two"
+        android:enabled="true"
+        android:icon="@drawable/bus"
+        android:title="Transport"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_three"
+        android:enabled="true"
+        android:icon="@drawable/gallery"
+        android:title="Gallery"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_four"
+        android:enabled="true"
+        android:icon="@drawable/contact"
+        android:title="Contact"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_five"
+        android:enabled="true"
+        android:icon="@drawable/location"
+        android:title="Location"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+</menu>

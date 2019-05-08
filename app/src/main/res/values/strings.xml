@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Aravali School</string>
+    <string name="login">Login</string>
+    <string name="login_user_hint">Admission Number</string>
+    <string name="login_pass_hint">Password</string>
+    <string name="title_activity_home">Aravali International School</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Aravali International School</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Change Child</string>
+    <string name="pref_file">algosoft.com.aravali.pref_file</string>
+    <string name="parentId">algosoft.com.aravali.parentId</string>
+    <string name="login_status">algosoft.com.aravali.login_status</string>
+    <string name="profile_admin">algosoft.com.aravali.profile_admin</string>
+    <string name="profile_school_name">algosoft.com.aravali.school_name</string>
+    <string name="profile_school_id">algosoft.com.aravali.school_id</string>
+    <string name="profile_student_name">algosoft.com.aravali.student_name</string>
+    <string name="profile_student_class">algosoft.com.aravali.student_class</string>
+    <string name="profile_section">algosoft.com.aravali.section</string>
+    <string name="profile_roll_no">algosoft.com.aravali.roll_number</string>
+    <string name="profile_dob">algosoft.com.aravali.dob</string>
+    <string name="profile_father_name">algosoft.com.aravali.father_name</string>
+    <string name="profile_father_mob">algosoft.com.aravali.father_mob</string>
+    <string name="profile_father_emil">algosoft.com.aravali.father_email</string>
+    <string name="profile_mother_name">algosoft.com.aravali.mother_name</string>
+    <string name="profile_student_pic">algosoft.com.aravali.student_pic</string>
+    <string name="profile_student_busRout">algosoft.com.aravali.busRout</string>
+    <string name="profile_student_Address">algosoft.com.aravali.Address</string>
+    <string name="latitude">algosoft.com.aravali.latitude</string>
+    <string name="longitude">algosoft.com.aravali.longitude</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_maps">Map</string>
+    <string name="aravali_international">Aravali International</string>
+    <string name="welcome_to">Welcome To</string>
+    <string name="school">School</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
